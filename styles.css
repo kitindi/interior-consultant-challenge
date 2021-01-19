@@ -41,11 +41,11 @@ header{
     padding: .4rem;
     border:2px solid #fff;
 }
-.fa{
-    cursor: pointer;
-}
-.fa-times{
+#fa-times{
     display: none;
+}
+.button_toggle{
+    display: flex;
 }
 .menu{
     display: flex;
@@ -53,14 +53,15 @@ header{
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    top:100px;
+    top:80px;
     left: 0;
     bottom: 0;
-    height: 90vh;
+    height: 100vh;
     z-index: 2;
     background: #181719;
     width: 100%;
    transform: translateX(-100%);
+   transition:transform 350ms ease-in-out;
 }
 .menu li{
     display: block;
