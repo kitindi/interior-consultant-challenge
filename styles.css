@@ -41,6 +41,12 @@ header{
     padding: .4rem;
     border:2px solid #fff;
 }
+.fa{
+    cursor: pointer;
+}
+.fa-times{
+    display: none;
+}
 .menu{
     display: flex;
     align-items: center;
@@ -54,7 +60,7 @@ header{
     z-index: 2;
     background: #181719;
     width: 100%;
-   /* transform: translateX(-100%); */
+   transform: translateX(-100%);
 }
 .menu li{
     display: block;
@@ -62,7 +68,7 @@ header{
     }
 .menu .menu_link{
 color: white;
- font-size: 1em;
+ font-size: 1.2em;
 }
 
 
